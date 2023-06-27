@@ -19,7 +19,7 @@ namespace JokesWebApp.Controllers
         {
             _context = context;
         }
-        [Authorize]
+        
         // GET: Jokes
         public async Task<IActionResult> Index()
         {
